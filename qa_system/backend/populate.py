@@ -100,4 +100,4 @@ conn.commit()
 cur.close()
 conn.close()
 
-print("Database setup completed with more data! 🎉")
+print("Database setup completed with more data!")
