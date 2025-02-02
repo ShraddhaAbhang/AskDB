@@ -100,5 +100,5 @@ conn.commit()
 cur.close()
 conn.close()
 
-print("Database setup completed!")
+print("Database setup completed!!")
 
