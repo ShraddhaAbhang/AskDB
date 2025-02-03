@@ -26,4 +26,3 @@ for table in tables:
 # Close connection
 cur.close()
 conn.close()
-

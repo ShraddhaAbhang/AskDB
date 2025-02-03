@@ -101,4 +101,3 @@ cur.close()
 conn.close()
 
 print("Database setup completed!!")
-
