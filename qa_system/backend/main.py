@@ -52,11 +52,11 @@ def fetch_database_schema():
                 current_table = table_name
             db_schema += f"  - {column_name} ({data_type})\n"
 
-        print("✅ Fetched Database Schema:\n", db_schema)
+        print("Fetched Database Schema:\n", db_schema)
         return db_schema
 
     except Exception as e:
-        print("❌ Database Schema Fetch Error:", e)
+        print("Database Schema Fetch Error:", e)
         return "Error fetching schema."
 
 
@@ -75,8 +75,8 @@ You are an AI assistant with access to the following PostgreSQL **database schem
 {DB_SCHEMA}
 
 **Instructions:**
-1️⃣ **If the user's question is related to the database**, **ONLY return a valid SQL query** without any explanation.  
-2️⃣ **If the user's question is general (not database-related), respond normally** as a conversational assistant.  
+1️ **If the user's question is related to the database**, **ONLY return a valid SQL query** without any explanation.  
+2️ **If the user's question is general (not database-related), respond normally** as a conversational assistant.  
 
 **User Question:** {{question}}
 
