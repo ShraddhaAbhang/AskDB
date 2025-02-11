@@ -93,8 +93,12 @@ customers = [
     ("Sophia Lee", "sophia.lee@example.com", "9012223344"),
     ("James Anderson", "james.anderson@example.com", "9023334455"),
     ("Olivia Brown", "olivia.brown@example.com", "9034445566"),
-    ("Liam Johnson", "liam.johnson@example.com", "9045556677")
-
+    ("Liam Johnson", "liam.johnson@example.com", "9045556677"),
+    ("Emma Wilson", "emma.wilson@example.com", "9056667788"),
+    ("Noah Carter", "noah.carter@example.com", "9067778899"),
+    ("Ava Martinez", "ava.martinez@example.com", "9078889900"),
+    ("William Thomas", "william.thomas@example.com", "9089990011"),
+    ("Mia White", "mia.white@example.com", "9090001122")
 ]
 
 for customer in customers:
@@ -141,7 +145,12 @@ products = [
     ("AirPods Pro", "Accessories", 249.99, 20),
     ("Sony PS5", "Gaming", 499.99, 5),
     ("HP Spectre x360", "Electronics", 1299.99, 7),
-    ("Ergonomic Desk", "Furniture", 199.99, 15)
+    ("Ergonomic Desk", "Furniture", 199.99, 15),
+    ("Samsung Galaxy S24", "Electronics", 1099.99, 12),
+    ("Bose Noise Cancelling Headphones", "Accessories", 349.99, 18),
+    ("Xbox Series X", "Gaming", 499.99, 6),
+    ("Asus ROG Laptop", "Electronics", 1599.99, 5),
+    ("Standing Desk", "Furniture", 299.99, 10)
 ]
 
 for product in products:
